@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome page</title>
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="all_page">
+      <div class="register_screen">
+        <img
+          src="/img/create account.png"
+          title="register screen"
+          alt="register screen"
+          name="register_screen"
+        />
+        <div class="register_screen_content">
+          <h1>create account</h1>
+          <p>
+            Go ahead and sign up, let everyone <br />
+            know how awesome you are!
+          </p>
+
+          <div class="container">
+            <form id="form" class="form" onsubmit="() => controlResponse();">
+              <div class="form-control">
+                <input type="text" id="username" placeholder="Enter Username" />
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input type="text" id="email" placeholder="Enter email" />
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter password"
+                  maxlength="8"
+                />
+                <small>Error Message</small>
+              </div>
+              <div class="form-control">
+                <input
+                  type="password"
+                  id="password2"
+                  placeholder="Enter password again"
+                  maxlength="8"
+                />
+                <small>Error Message</small>
+              </div>
+              <button class="butt" type="submit">create account</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

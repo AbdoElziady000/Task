@@ -1,0 +1,253 @@
+.all_page .welcome_screen {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 100px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 10px;
+  width: 1080px;
+  height: 435px;
+}
+.all_page .welcome_screen img {
+  width: 450px;
+  height: 315px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -webkit-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -moz-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+}
+.all_page .welcome_screen .welcome_screen_content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.all_page .welcome_screen .welcome_screen_content h1 {
+  color: #2D2D2D;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 56px;
+  margin-bottom: 0px;
+}
+.all_page .welcome_screen .welcome_screen_content p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+  word-spacing: 1px;
+  color: #1F1249;
+}
+
+.all_page .register_screen {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 100px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 10px;
+  width: 1080px;
+  height: 635px;
+}
+.all_page .register_screen img {
+  width: 450px;
+  height: 536px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -webkit-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -moz-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+}
+.all_page .register_screen .register_screen_content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.all_page .register_screen .register_screen_content .form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.all_page .register_screen .register_screen_content .form-control input {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  height: 60px;
+  background: linear-gradient(113.87deg, #ecedef 14.81%, #f8f8f9 88.76%);
+  box-shadow: 0px 6px 18px #b2b2b3;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.all_page .register_screen .register_screen_content input::-moz-placeholder {
+  color: rgb(85, 84, 84);
+}
+.all_page .register_screen .register_screen_content input:-ms-input-placeholder {
+  color: rgb(85, 84, 84);
+}
+.all_page .register_screen .register_screen_content input::placeholder {
+  color: rgb(85, 84, 84);
+}
+.all_page .register_screen .register_screen_content .form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+.all_page .register_screen .register_screen_content .form-control.success input {
+  border-color: var(--succes-color);
+}
+.all_page .register_screen .register_screen_content .form-control.error input {
+  border-color: var(--error-color);
+}
+.all_page .register_screen .register_screen_content .form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.all_page .register_screen .register_screen_content .form-control.error small {
+  visibility: visible;
+}
+.all_page .register_screen .register_screen_content .form-control input {
+  width: 350px !important;
+}
+.all_page .register_screen .register_screen_content h1 {
+  color: #2D2D2D;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 56px;
+  margin-bottom: 0px;
+}
+.all_page .register_screen .register_screen_content p {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+  word-spacing: 1px;
+  color: #1F1249;
+}
+
+.all_page .login_screen {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  padding: 100px;
+  background: rgba(245, 247, 255, 0.85);
+  border-radius: 10px;
+  width: 100vw;
+  height: 435px;
+}
+.all_page .login_screen img {
+  width: 450px;
+  height: 315px;
+  border-radius: 10px;
+  box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -webkit-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+  -moz-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+}
+.all_page .login_screen .login_screen_content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.all_page .login_screen .login_screen_content h1 {
+  color: #2d2d2d;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+.all_page .login_screen .login_screen_content p {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  word-spacing: 1px;
+  color: #1f1249;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+body .butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 450px;
+  height: 60px;
+  background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+  box-shadow: 0px 6px 18px #9CADF2;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+body .butt a {
+  color: #fff;
+  text-decoration: none;
+}
+
+:root {
+  --succes-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+.all_page {
+  background-image: linear-gradient(90deg, #e1bdcd, #dec1d9, #d9c7e4, #d1cdee, #c7d3f5);
+  position: relative;
+  height: 1280px;
+}
+
+@media (max-width: 991px) {
+  .all_page .welcome_screen, .all_page .login_screen, .all_page .register_screen {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 835px;
+  }
+  .all_page .register_screen {
+    height: 1935px;
+  }
+  .all_page .register_screen img {
+    transform: translateY(60px);
+    width: 450px;
+    height: 536px;
+  }
+}/*# sourceMappingURL=main.css.map */

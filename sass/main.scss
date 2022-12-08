@@ -1,0 +1,80 @@
+@import "./pages/welcome";
+@import "./pages/register";
+@import "./pages/login";
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  .butt 
+  {
+    a 
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 50px;
+gap: 12px;
+width: 450px;
+height: 60px;
+background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+box-shadow: 0px 6px 18px #9CADF2;
+border-radius: 10px;
+border: none;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #fff;
+text-transform: capitalize;
+cursor: pointer;
+  }
+}
+:root{
+    --succes-color: #2ecc71;;
+    --error-color: #e74c3c;
+}
+
+// ==============================================================
+.all_page {
+  background-image: linear-gradient(
+    90deg,
+    #e1bdcd,
+    #dec1d9,
+    #d9c7e4,
+    #d1cdee,
+    #c7d3f5
+  );
+position: relative;
+  height: 1280px;
+}
+
+
+// Media_Query
+@media (max-width : 991px)
+{
+.all_page
+{
+     .welcome_screen ,.login_screen,.register_screen
+     {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        max-width: 100%;
+          height: 835px;
+     }
+     .register_screen
+     {
+        height: 1935px;
+          img {
+            transform: translateY(60px);
+      width: 450px;
+      height: 536px;
+          }
+     }
+}
+}
+// ==============================================================
+// ==============================================================

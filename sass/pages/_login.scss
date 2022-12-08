@@ -1,0 +1,62 @@
+// Start welcome_page
+// ==============================================================
+// ==============================================================
+.all_page {
+  // ========================================
+  //welcome_screen
+  // ==========================================
+  .login_screen {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 100px;
+    background: rgba(245, 247, 255, 0.85);
+    border-radius: 10px;
+    width: 100vw;
+    height: 435px;
+    img {
+      width: 450px;
+      height: 315px;
+      border-radius: 10px;
+      box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+      -webkit-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+      -moz-box-shadow: -3px 5px 5px 0px rgba(146, 144, 144, 0.75);
+    }
+    .login_screen_content {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      h1 {
+        color: #2d2d2d;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 48px;
+        margin-bottom: 0px;
+      }
+      p {
+        font-weight: bold;
+        font-size: 24px;
+        text-decoration: underline;
+        margin-bottom: 30px;
+        word-spacing: 1px;
+        color: #1f1249;
+      }
+    }
+  }
+  //   ========================================
+  //welcome_screen
+  // ==========================================
+}
+// ==============================================================
+// ==============================================================
+// End welcome_page
+// ==============================================================
+// ==============================================================
